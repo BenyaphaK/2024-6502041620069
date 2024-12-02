@@ -1,3 +1,3 @@
-# 2024-6502041620069
+# Cyber Security
 ## Benyapha Kongmuenrak
 ### 6502041620069
