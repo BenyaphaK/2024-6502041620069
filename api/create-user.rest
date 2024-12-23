@@ -5,7 +5,7 @@ Authorization: Bearer c58946c876e21d6b171cb614eac0898c1241711b4bddbd10a2a0fab88b
 
 {
     "username": "benyapha",
-    "email": "shinogami1123@gmail.com.com",
+    "email": "shinogami1123@gmail.com",
     "password": "5hp@ssw0rd"
 }
 
