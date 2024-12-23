@@ -10,7 +10,7 @@ Authorization: Bearer c58946c876e21d6b171cb614eac0898c1241711b4bddbd10a2a0fab88b
 }
 
 # Authentication(Login)
-POST http://localhost:8080/auth/local/login
+POST http://localhost:8080/auth/local
 Content-Type:  application/json
 
 {
