@@ -1,7 +1,7 @@
-# User Registration
+# Identifcaiton(Register)
 POST http://localhost:8080/auth/local/register
 Content-Type: application/json
-Authorization: Bearer c58946c876e21d6b171cb614eac0898c1241711b4bddbd10a2a0fab88be6ddcf1b35f625972bdff6affae5e3f632189e702242d66f17320cbb8dd231e68614fcdb882f8c365900080cffded9a5f9a8c3cff269347d626cf46ec4863bed677612961657e7b5b27a79c225bcc962ab69c6773d57832c181a2ab8be43c619370b22
+Authorization: Bearer c58946c876e21d6b171cb614eac0898c1241711b4bddbd10a2a0fab88be6ddcf1b35f625972bdff6affae5e3f632189e702242d66f17320cbb8dd231e68614fcdb882f8c365900080cffded9a5f9a8c3cff269347d626cf46ec4863bed677612961657e7b5b27a79c225bcc962ab69c6773d57832c181a2ab8be43c619370b22 
 
 {
     "username": "benyapha",
@@ -9,11 +9,11 @@ Authorization: Bearer c58946c876e21d6b171cb614eac0898c1241711b4bddbd10a2a0fab88b
     "password": "5hp@ssw0rd"
 }
 
-# User Login
-POST http://localhost:8080/auth/local
-Content-Type: application/json
+# Authentication(Login)
+POST http://localhost:8080/auth/local/login
+Content-Type:  application/json
 
 {
-    "identifier": "benyapha",  // Use the username or email that was registered
+    "identifier": "shinogami1123@gmail.com",
     "password": "5hp@ssw0rd"
 }
